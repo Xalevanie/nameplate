@@ -1,7 +1,18 @@
 /********************
 YOUR STYLES
 *******************/
+article {
+    margin: 0 auto;
+    padding: 3em;
+}
 
+h1 {
+    font-size: 6em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* First frame */
 
 .char1,
 .char4,
@@ -14,19 +25,12 @@ YOUR STYLES
     transition: transform .5s;
 }
 
-.char1:hover {
-    transform: rotate(-5deg) scale(.75);
+.char3 {
+    letter-spacing: 4px;
 }
 
-.char4:hover {
-    transform: rotate(-5deg) scale(.75);
-}
-
-.char10:hover {
-    transform: rotate(10deg) scale(.75);
-    
-/*   RubberBand animate.css */
-    @keyframes rubberBand {
+/* Last frame */
+@keyframes rubberBand {
   from {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
@@ -63,10 +67,12 @@ YOUR STYLES
   }
 }
 
-.rubberBand {
-  -webkit-animation-name: rubberBand;
-  animation-name: rubberBand;
+
+article img:hover {
+  animation: rubberBand 1s infinite;
 }
+
+
 
 /********************
 MEDIA QUERIES
