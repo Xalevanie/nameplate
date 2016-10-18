@@ -4,3 +4,6 @@ $('h1').lettering();
 
 // Make Backstretch Go!!
 $.backstretch('/img/bg.jpg');
+
+//The Masonry thing
+$('selector').masonry();
