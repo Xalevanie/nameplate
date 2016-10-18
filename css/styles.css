@@ -1,6 +1,7 @@
 /********************
 YOUR STYLES
 *******************/
+
 article {
     margin: 0 auto;
     padding: 3em;
@@ -12,7 +13,8 @@ h1 {
     text-transform: uppercase;
 }
 
-/* First frame */
+
+/* First Frame */
 
 .char1,
 .char4,
@@ -25,11 +27,27 @@ h1 {
     transition: transform .5s;
 }
 
-.char3 {
+.char4 {
     letter-spacing: 4px;
 }
 
-/* Last frame */
+
+/* Last Frame */
+
+.char1:hover {
+    transform: rotate(-5deg) scale(.75);
+}
+
+.char4:hover {
+    transform: rotate(15deg) scale(1.25);
+}
+
+.char10:hover {
+    transform: rotate(10deg);
+}
+
+
+/* Keyframe Animation */
 @keyframes rubberBand {
   from {
     -webkit-transform: scale3d(1, 1, 1);
@@ -73,22 +91,21 @@ article img:hover {
 }
 
 
-
 /********************
 MEDIA QUERIES
 *******************/
 
-/* Desktop */
-@media (min-width: 1200px) {
 
-}
+/* Desktop */
+
+@media (min-width: 1200px) {}
+
 
 /* Tablet */
-@media (min-width: 768px) {
 
-}
+@media (min-width: 768px) {}
+
 
 /* Mobile */
-@media (min-width: 480px) {
 
-}
+@media (min-width: 480px) {}
