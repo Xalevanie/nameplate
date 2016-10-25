@@ -1,9 +1,13 @@
-// My Scripts
 // Intialize Lettering JS
 $('h1').lettering();
 
-// Make Backstretch Go!!
-$.backstretch('/img/bg.jpg');
+// Intialize Backstretch
+$.backstretch('/img/balance2.jpg');
 
-//The Masonry thing
-$('selector').masonry();
+// Intialize Masonry
+$('article').masonry({
+	itemSelector: 'section',
+	columnWidth: 300,
+	gutter: 10,
+	isFitWidth: true
+});
