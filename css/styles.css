@@ -7,7 +7,7 @@ YOUR STYLES
 
 section {
   /* Fallback: Floated in No JS */
-  float: left;
+/*  float: left;*/
   padding: 1em;
 }
 
@@ -75,11 +75,15 @@ MEDIA QUERIES
 @media (min-width: 768px) {
     
 body {
-        width: 600px;}
+        background-color: beige;
+    }
 }
 
 
 /* Mobile */
 
 @media (max-width: 480px) {
+    body {
+        background-color: cadetblue;
+    }
 }
