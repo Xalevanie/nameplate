@@ -5,17 +5,6 @@ YOUR STYLES
 /* Layout */
 * { box-sizing: border-box; }
 
-section {
-  /* Fallback: Floated in No JS */
-/*  float: left;*/
-  padding: 1em;
-  font-family: 'Gloria Hallelujah', cursive;
-    overflow: hidden;
-}
-
-#scroll:hover {
-    overflow: scroll;
-}
 
 /* clearfix */
 section:after {
@@ -23,8 +12,6 @@ section:after {
   display: block;
   clear: both;
     }
-  
-}
 
 article {
     margin: 0 auto;
@@ -39,13 +26,20 @@ h1 {font-family: 'Shadows Into Light', cursive;
 
 
 /* Masonry Styling */
+
+#scroll:hover {
+    overflow: scroll;
+}
+
 section {
+    font-family: 'Gloria Hallelujah', cursive;
+    overflow: hidden;
   background: rgba(183, 182, 182, 0.65);
     border-radius: 10%;
     padding: 30px;
   border: px solid transparent;
   /* vertical space between */
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 /*    default width, you can set, also change in scripts.js*/
   width: 300px;
 }
@@ -76,11 +70,11 @@ section {
 }
 
 .med {
-  height: 400px;
+  height: 450px;
 }
 
 .short {
-  height: 200px;
+  height: 300px;
 }
 
 /********************

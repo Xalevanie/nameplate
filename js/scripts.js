@@ -8,6 +8,6 @@ $.backstretch('/nameplate/img/balance2.jpg');
 $('article').masonry({
 	itemSelector: 'section',
 	columnWidth: 300,
-	gutter: 10,
+	gutter: 20,
 	isFitWidth: true
 });
