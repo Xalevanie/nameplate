@@ -50,14 +50,25 @@ section {
   width: 300px;
 }
 
-section:hover {
-    background: url(../img/bg.jpg);
+#russel:hover {
+    background: url(../img/russel.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
     
-/*    transition: background img url;*/
 }
-section p:hover {
-    color: antiquewhite;
+#rigby:hover {
+    background: url(../img/rigby.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
 }
+#bee:hover {
+    background: url(../img/bee.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
 
 /*set your own height*/
 .tall {
