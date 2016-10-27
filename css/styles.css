@@ -51,8 +51,12 @@ section {
 }
 
 section:hover {
+    background: url(../img/bg.jpg);
     
-    transition: background green;
+/*    transition: background img url;*/
+}
+section p:hover {
+    color: antiquewhite;
 }
 
 /*set your own height*/
