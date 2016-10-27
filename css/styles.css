@@ -10,7 +10,11 @@ section {
 /*  float: left;*/
   padding: 1em;
   font-family: 'Gloria Hallelujah', cursive;
-    overflow: inherit;
+    overflow: hidden;
+}
+
+#scroll:hover {
+    overflow: scroll;
 }
 
 /* clearfix */
