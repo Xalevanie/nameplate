@@ -32,8 +32,10 @@ h1 {font-family: 'Shadows Into Light', cursive;
 
 /* Masonry Styling */
 section {
-  background: rgba(183, 182, 182, 0.75);
-  border: 1px solid black;
+  background: rgba(183, 182, 182, 0.65);
+    border-radius: 20%;
+    padding: 30px;
+  border: px solid transparent;
   /* vertical space between */
   margin-bottom: 10px;
 /*    default width, you can set, also change in scripts.js*/
